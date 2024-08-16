@@ -1,0 +1,112 @@
+
+/* Inter Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/* Miama Font
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+
+.grey-qo-regular {
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-style: normal;
+  } */
+/* script */
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+.parisienne-regular {
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+  
+
+/* shared styles */
+.main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main> section{
+    margin-top: 130px;
+}
+
+/* color styles */
+.white-text{
+    color: white;
+}
+
+.display-flex{
+    display: flex;
+}
+.bg-light{
+    background-color: black;
+}
+.gradient{
+    background: linear-gradient(bottom, black, rgb(53, 53, 53));
+}
+
+
+
+/* Nav Styles */
+
+#home{
+    background-color: #E6533C;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding: 5px 15px;
+    
+
+}
+.nav-bar{
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 190px;
+    
+}
+
+.nav-title {
+    color: #E6533C;
+    font-size: 2.25rem;
+    font-weight: 800;
+    font-style: oblique;
+    
+}
+/* .nav-links,  */
+.nav-link{
+    text-decoration: none;
+    font-size: 1.125rem;
+    color: white;
+    
+    
+}
+.nav-links{
+    list-style: none;
+    /* margin-right: 50px; */
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    border: 1px solid #3f3f3f;
+    border-radius: 20px;
+    justify-content: space-evenly;
+     
+}
+/* Banner Styles */
+
+.highlight-text{
+    font-size: 4.875rem;
+    font-weight: 800;
+}
+
+    
+
+
